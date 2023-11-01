@@ -18,14 +18,15 @@ The dataset used for this project includes the following attributes:
 
 ## Project Structure
 The project is organized as follows:
-- `data/`: Contains the dataset used for training and testing the model.
+- `dataset/`: Contains the dataset used for training and testing the model.
 - `static/`: Includes static files like images for the web application.
 - `templates/`: Contains HTML templates for the web application.
 - `app.py`: The Flask application that integrates the machine learning model with a web interface.
 - `ML-occupancy-rates.pkl`: A pre-trained machine learning model (Decision Tree) saved as a pickle file.
 - `index.html`: The HTML form for user input.
 - `home.html`: The HTML page for displaying predictions.
-
+- `training` : The code for training and testing the ML Model.
+  
 ## Model Building
 The machine learning model is built using the scikit-learn library. We use a Decision Tree classifier for this project. The model is trained using the features (temperature, humidity, CO2, light, humidity ratio) and the target variable (occupancy).
 
